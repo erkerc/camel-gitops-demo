@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: prod-camel-rest
+  namespace: openshift-gitops
+spec:
+  destination:
+    namespace: rest-camel-prod
+    server: https://kubernetes.default.svc
+  project: rest-camel
+  source:
+    path: environments/prod
+    repoURL: https://github.com/erkerc/camel-gitops-demo.git
+    targetRevision: HEAD
+ 
