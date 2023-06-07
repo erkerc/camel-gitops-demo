@@ -1,5 +1,5 @@
 resources:
-- argocd-camel-rest-project.yaml
+- argocd-rest-camel.yaml
 - argocd-app-dev.yaml
 - argocd-app-stage.yaml
 - argocd-app-prod.yaml
