@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: rest-camel-prod
     server: https://kubernetes.default.svc
-  project: rest-camel
+  project: camel-rest
   source:
     path: environments/prod
     repoURL: https://github.com/erkerc/camel-gitops-demo.git
