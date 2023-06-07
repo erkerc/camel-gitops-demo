@@ -5,4 +5,4 @@ metadata:
     camel.apache.org/operator.id: camel-k
   name: rest-dsl
 spec:
-  replicas: 3
+  replicas: 5
